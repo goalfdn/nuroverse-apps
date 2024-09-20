@@ -8,8 +8,3 @@ force = true
   for = "/novus-chat/index.js"
   [headers.values]
     access-control-allow-origin = "*"
-
-[[headers]]
-  for = "/novus-chat/web/*"
-  [headers.values]
-    access-control-allow-origin = "https://apps.nuroverse.co/novus-chat/index.js"
