@@ -1,0 +1,5 @@
+[[redirects]]
+from = "/novus-chat"
+to = "https://embedded-novus.s3.amazonaws.com/index.js"
+status = 200
+force = true
