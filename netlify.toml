@@ -1,5 +1,8 @@
+[build]
+  publish = "dist"
+
 [context.staging]
-  base = "public/staging"
+  command = "cp ./staging_redirects ./dist/redirects"
 
 [context.production]
-  base = "public/main"
+  command = "cp ./prod_redirects ./dist/redirects"
