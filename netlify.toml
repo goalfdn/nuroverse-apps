@@ -2,7 +2,7 @@
   publish = "dist"
 
 [context.staging]
-  command = "cp ./staging_redirects ./dist/redirects"
+  command = "mkdir dist && cp ./staging_redirects ./dist/_redirects"
 
 [context.production]
-  command = "cp ./prod_redirects ./dist/redirects"
+  command = "mkdir dist && cp ./prod_redirects ./dist/_redirects"
