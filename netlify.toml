@@ -1,8 +1,10 @@
+[build]
+  publish = "public/main"
+
 [branch.dev]
   publish = "public/dev"
 
-[branch.production]
-  publish = "public/main"
-
 [branch.staging] 
   publish = "public/staging"
+
+[branch.production]
