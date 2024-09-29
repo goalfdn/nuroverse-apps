@@ -1,5 +1,17 @@
 [[redirects]]
-from = "/novus-chat/*"
-to = "https://embedded-novus.s3.amazonaws.com/:splat"
-status = 200
-force = true
+  from = "/novus-chat/*"
+  to = "https://embedded-novus.s3.amazonaws.com/:splat"
+  status = 200
+  force = true
+  conditions = {
+    Host = ["apps.nuroverse.co"]
+  }
+
+[[redirects]]
+  from = "/novus-chat/*"
+  to = "https://embedded-novus-dev.s3.amazonaws.com/:splat"
+  status = 200
+  force = true
+  conditions = {
+    Host = ["staging.apps.nuroverse.co"]
+  }
