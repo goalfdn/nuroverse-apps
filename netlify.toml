@@ -1,8 +1,5 @@
-[context.dev]
-  publish = "public/dev"
-
 [context.staging]
-  publish = "public/staging"
+  base = "public/staging"
 
 [context.production]
-  publish = "public/main"
+  base = "public/main"
